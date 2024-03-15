@@ -12,6 +12,5 @@ public interface CustomerService {
 
     CustomerRegistrationResponse register(CustomerRegistrationRequest request);
 
-
     ApiResponse<UpdateCustomerResponse> updateCustomer(Long id, UpdateCustomerRequest request) throws CustomerNotFoundException;
 }

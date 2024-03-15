@@ -3,6 +3,7 @@ package africa.semicolon.shoppersDelight.models;
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;
+import lombok.ToString;
 
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
@@ -13,6 +14,7 @@ import static java.time.LocalDateTime.now;
 @Getter
 @Setter
 @Entity
+@ToString
 public class Product {
     @Id
     @GeneratedValue(strategy = IDENTITY)

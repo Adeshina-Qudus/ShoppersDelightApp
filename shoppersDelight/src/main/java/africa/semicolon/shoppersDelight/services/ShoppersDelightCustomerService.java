@@ -17,7 +17,6 @@ import com.github.fge.jsonpatch.JsonPatchOperation;
 import com.github.fge.jsonpatch.ReplaceOperation;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
 import java.lang.reflect.Field;
 import java.util.ArrayList;
 import java.util.Arrays;
