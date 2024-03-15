@@ -40,7 +40,6 @@ public class ProductTest {
         ProductResponse product = productService.getProductBy(200L);
         log.info("found product--->{}", product);
         assertThat(product).isNotNull();
-
     }
 
     @Test
